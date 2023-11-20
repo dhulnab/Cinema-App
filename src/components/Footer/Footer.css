@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 8px;
     margin-bottom: 30px;
 }
 .insta{
@@ -22,4 +23,7 @@
     outline: none;
     color: #fff;
 
+}
+.pearent{
+    background-color: #131f2f;
 }
