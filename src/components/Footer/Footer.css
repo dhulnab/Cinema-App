@@ -1,0 +1,25 @@
+.footer-txt{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imojy{
+    margin: 10px 8px 5px 8px;
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.insta{
+    font-size: 30px;
+    outline: none;
+    color: #fff;
+
+}

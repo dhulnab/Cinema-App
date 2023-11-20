@@ -1,0 +1,135 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.item {
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  border-radius: 15px;
+}
+.item-hidden {
+  display: none;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.429);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.item .caption h2 {
+  color: #c4a02b;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.desc {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item .caption {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.item .watch {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background-color: #131f2f;
+  width: fit-content;
+  text-align: center;
+  padding: 12px 20px 12px 14px;
+  border-radius: 20px;
+}
+
+.item .watch .watch-img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.watch-btn {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.move {
+  font-size: 26px;
+  color: #c4a02b;
+  position: absolute;
+  bottom: 60px !important;
+  right: 60px !important;
+  display: flex;
+  align-items: center;
+}
+.move .num-move {
+  margin: 0 10px 0px 10px;
+}
+.arrow {
+  cursor: pointer;
+  padding-top: 8px;
+  transition: 0.1ms all 0.09s;
+}
+.arrow:hover {
+  cursor: pointer;
+  background-color: #c6a846d1;
+  border-radius: 80px;
+  color: #fff;
+}
+
+@media screen and (max-width: 560px) {
+  /* .item .caption {
+    text-align: center;
+  } */
+  .item .caption h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .item .caption h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .desc {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .item .watch .watch-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .item .watch {
+    margin: auto;
+  }
+  .watch-btn {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .item .caption {
+    position: static;
+    padding-top: 320px;
+  }
+  .move {
+    position: static;
+    margin: 16px 32.8%;
+  }
+}
